@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "divinefingers-dev:toggle"
   },
-  "repository": "https://github.com/atom/divinefingers-dev",
+  "repository": "https://github.com/tanasecosminromeo/divinefingers-dev",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
