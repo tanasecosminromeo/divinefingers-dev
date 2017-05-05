@@ -1,0 +1,26 @@
+{
+  "context-menu": {
+    "atom-text-editor": [
+      {
+        "label": "Toggle divinefingers-dev",
+        "command": "divinefingers-dev:toggle"
+      }
+    ]
+  },
+  "menu": [
+    {
+      "label": "Packages",
+      "submenu": [
+        {
+          "label": "divinefingers-dev",
+          "submenu": [
+            {
+              "label": "Toggle",
+              "command": "divinefingers-dev:toggle"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
