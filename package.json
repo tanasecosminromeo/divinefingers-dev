@@ -1,18 +1,19 @@
 {
   "name": "divinefingers-dev",
-  "main": "./lib/divinefingers-dev",
+  "main": "./lib/divinefingers",
   "version": "0.0.1",
   "description": "DivineFingers is a magical plugin that allows you to work on a remote server just as if you would work locally with features like searching for and inside files and open them right where you want to with the ability to auto upload them",
   "keywords": [],
-  "activationCommands": {
-    "atom-workspace": "divinefingers-dev:toggle"
-  },
-  "repository": "https://github.com/tanasecosminromeo/divinefingers-dev",
+  "repository": "https://github.com/tanasecosminromeo/divinefingers",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-    "remote-ftp": "git+https://github.com/mgrenier/remote-ftp"
+  "consumedServices": {
+    "status-bar": {
+      "versions": {
+        "^1.0.0": "consumeStatusBar"
+      }
+    }
   }
 }
